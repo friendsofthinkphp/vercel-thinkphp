@@ -2,12 +2,12 @@
 
 ## Api 测试
 
-https://tant-admin.leung.vercel.app
+https://thinkphp-vercel.vercel.app
 
-`GET /admin/member/xiaodi`
+`GET` `/admin/member/xiaodi`
 
-`POST /admin/member`
+`POST` `/admin/member`
 
-`PUT /admin/member/xiaodi`
+`PUT` `/admin/member/xiaodi`
 
-`DELETE /admin/member/xiaodi`
+`DELETE` `/admin/member/xiaodi`
