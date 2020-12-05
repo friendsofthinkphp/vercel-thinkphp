@@ -1,9 +1,13 @@
 <h1 align=center>ThinkPHP  ❤️‍ Serverless For <a href="https://vercel.com">Vercel</a></h1>
 
+## Api 测试
+
 https://tant-admin.leung.vercel.app
 
-## Index App
-https://thinkphp-vercel.vercel.app/index/hello/xiaodi
+`GET /admin/member/xiaodi`
 
-## Admin App
-https://thinkphp-vercel.vercel.app/admin/hello/xiaodi
+`POST /admin/member`
+
+`PUT /admin/member/xiaodi`
+
+`DELETE /admin/member/xiaodi`

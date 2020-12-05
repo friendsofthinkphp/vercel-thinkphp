@@ -4,14 +4,10 @@
     { "src": "/api/index.php", "use": "vercel-php@0.3.1" },
     { "src": "/public/**", "use": "@vercel/static" }
   ],
-  "routes": [
-    {
-      "src": "/(css|js)/(.*)",
-      "dest": "public/$1/$2"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/api/index.php"
-    }
+  "rewrites": [
+    { "source": "/favicon.ico", "destination": "https://juicy.vercel.app/favicon.ico" },
+    { "source": "/static/(css|js)/(.*)", "destination": "public/static/$1/$2" },
+    { "source": "/storage/(.*)", "destination": "/public/storage/$1" },
+    { "source": "/(.*)", "destination": "/api/index.php" }
   ]
 }
