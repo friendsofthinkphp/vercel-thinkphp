@@ -2,7 +2,7 @@
 
 ## Api 测试
 
-https://thinkphp-vercel.vercel.app
+https://vercel-thinkphp.wfunc.com
 
 `GET` `/admin/member/xiaodi`
 
